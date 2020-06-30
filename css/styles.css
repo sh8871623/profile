@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  line-height: 1;
+}
+
+.top-container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3,
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 50%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30%;
+  top: 5%;
+}
+
+.haneef-profile {
+  height: 200px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+hr {
+  border: dotted #66bfbf 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+.button-contact {
+	background-color:#11cdd4;
+	border-radius:15px;
+	border:1px solid #11cdd4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 48px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	&:hover {
+    background-color:#30e3cb;
+    }
+}
+
+.cpy {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px;
+}
+       
